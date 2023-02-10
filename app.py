@@ -3,8 +3,8 @@ from streamlit_image_comparison import image_comparison
 from pathlib import Path
 
 IMAGE_TO_URL = {
-    "sample_image_1": Path("image1.jpg"),
-    "sample_image_2": Path("image2.jpg")
+    "sample_image_1": Path("resources/image1.jpg"),
+    "sample_image_2": Path("resources/image2.jpg")
 }
 
 
