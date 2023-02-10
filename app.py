@@ -1,10 +1,10 @@
 import streamlit as st
 from streamlit_image_comparison import image_comparison
-
+from pathlib import Path
 
 IMAGE_TO_URL = {
-    "sample_image_1": "https://user-images.githubusercontent.com/34196005/143309873-c0c1f31c-c42e-4a36-834e-da0a2336bb19.jpg",
-    "sample_image_2": "https://user-images.githubusercontent.com/34196005/143309867-42841f5a-9181-4d22-b570-65f90f2da231.jpg",
+    "sample_image_1": Path("image1.jpg"),
+    "sample_image_2": Path("image2.jpg")
 }
 
 
